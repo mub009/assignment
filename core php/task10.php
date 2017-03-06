@@ -5,9 +5,7 @@
 @create 2/24/20017
 
 */
-
-$number=array(25,100,58,45,100,36,78,101);
-
-echo 'its largest number in array'." ".max($number);
-
+$baabtra="hello baabtra";
+echo "its echo output value :"." ".$baabtra."<br>";
+print("its print output value:"." ".$baabtra);
 ?>

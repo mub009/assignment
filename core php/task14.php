@@ -6,11 +6,11 @@
 
 */
 
-$meaning= array('Alcopop' =>'Fruit drinks fortified with alcohol, designed and marketed to appeal to young people' ,'Analysis paralysis' =>'The total inability to reach a decision due to over-analysis of a situation.' ,'App' =>'Abbreviation of application software that performs a specific task.' ,'Avatar' =>'A graphical image representing a person for example on the Internet.' );
+$students=array(array('name'=>'mubashir','age'=>22,'total_marks'=>80),
+				array('name'=>'anas','age'=>20,'total_marks'=>89),
+				array('name'=>'arjun','age'=>21,'total_marks'=>90),
+					);
 
-print_r($meaning);
 
-
-
-
+print_r(arsort($students['total_marks']));
 ?>

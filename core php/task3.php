@@ -20,9 +20,9 @@ function display()
 	
 	for ($i=0; $i <$total_arguments ; $i++) 
 	{
-		echo func_get_arg($i)."<br>"; 
+	 $mul*=func_get_arg($i); 
 	}
-  
+  echo $mul;
 
 	}
 

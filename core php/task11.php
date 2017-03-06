@@ -6,8 +6,8 @@
 
 */
 
-$values=array('mubashir','arjun','favas','rashid','muna','mubashir','arjun','anas');
-$unique=array_unique($values);
-print_r($unique);
+$number=array(25,100,58,45,100,36,78,101);
+
+echo 'its largest number in array'." ".max($number);
 
 ?>
