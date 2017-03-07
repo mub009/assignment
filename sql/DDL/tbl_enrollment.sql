@@ -19,18 +19,6 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 mysql> use assignment
 Database changed
 
-
-mysql> desc tbl_classes
-    -> ;
-+-----------------+-------------+------+-----+---------+----------------+
-| Field           | Type        | Null | Key | Default | Extra          |
-+-----------------+-------------+------+-----+---------+----------------+
-| pk_int_class_id | int(11)     | NO   | PRI | NULL    | auto_increment |
-| vchr_class_name | varchar(20) | YES  |     | NULL    |                |
-| fk_int_dept_id  | int(11)     | YES  | MUL | NULL    |                |
-+-----------------+-------------+------+-----+---------+----------------+
-3 rows in set (0.00 sec)
-
 mysql> create table tbl_enrollment
     -> (
     -> pk_int_enrollment_id int(11) primary key auto_increment,
